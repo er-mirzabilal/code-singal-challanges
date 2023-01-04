@@ -9,7 +9,6 @@
  */
 
 function solution(a) {
-    
     const occurence = a.map((item, index) => {
         const occIndex = a.slice(index + 1).indexOf(item);
          return occIndex === -1 ? occIndex : (index+1) + occIndex;
