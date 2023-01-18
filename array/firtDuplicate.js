@@ -23,6 +23,7 @@ function solution(a) {
         if(result > item) return item;
         return result;
     }, -1)
+    
     if(smallestIndex === -1) return -1;
     return a[smallestIndex];
 }
